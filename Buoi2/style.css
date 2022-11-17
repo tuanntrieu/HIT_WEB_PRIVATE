@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+img {
+    width: 630px;
+}
+
+.s1 {
+    color: white;
+    background:rgb(236, 141, 157);
+}
+.s2{
+    color:blue;
+    background:rgb(117, 117, 235);
+}
+.bang{
+    background-image: url("https://thuthuatnhanh.com/wp-content/uploads/2020/01/hinh-anh-bau-troi-xanh-va-may-trang.jpg") ;
+}
+.s3{
+    color:blue;
+    background:rgb(137, 237, 137);
+}

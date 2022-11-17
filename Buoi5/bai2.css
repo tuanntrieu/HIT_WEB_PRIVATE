@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Sono', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(88, 9, 121, 0.6085784655659139) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.home {
+    height: 90%;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+}
+.name{
+    margin: 10px;
+}
+.passInput{
+    margin: 10px;
+}
+input {
+    border: none;
+    height: 25x;
+    width: 350px;
+}
+
+hr {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.user {
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.pass {
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 30px;
+}
+
+.note {
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.ok {
+    height: 35px;
+    width: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.ok:hover {
+    background-color: rgb(0, 212, 255, 1);
+}
+
+.or {
+    margin-bottom: 20px;
+}
+.icon{
+    font-size: 40px;
+}
+.or1{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
