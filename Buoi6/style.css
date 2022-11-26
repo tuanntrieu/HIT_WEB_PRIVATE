@@ -201,7 +201,7 @@ input{
     border-radius: 07px;
     border: 1px solid rgb(200, 200, 200);
     border-color: var(--primary-color);
-    box-shadow:5px 5px 5px  orangered;
+    box-shadow:2px 2px 2px  orangered;
 }
 .input2{
     width: 100%;
