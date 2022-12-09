@@ -394,6 +394,10 @@ button:hover{
         padding: 20px;
     }
 
+    #service {
+        padding: 10px;
+        height: 100vh;
+    }
     #service>h1 {
         font-size: 30px;
     }
