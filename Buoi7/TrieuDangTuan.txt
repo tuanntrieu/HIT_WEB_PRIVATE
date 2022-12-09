@@ -1,0 +1,62 @@
+PHÂN BIỆT
+Khai báo var được định phạm vi toàn cục (global) hay hàm (function) trong khi let và const được định phạm vi là khối mã (block)
+
+Biến var có thể được cập nhật và khai báo lại trong phạm vi tồn tại; 
+Biến let có thể được cập nhật nhưng không thể khai báo lại; 
+Biến const không thể cập nhật nhưng không thể khai báo lại.
+
+Khai báo của var, let, const đều được dịch chuyển lên đầu của phạm vi. Nhưng trong khi biến var được khởi gán giá trị với undefined, biến let và const không được khởi gán giá trị.
+Trong khi var và let có thể được khai báo không khởi gán giá trị, const phải khởi gán giá trị khi khai báo.
+
+TOÁN TỬ
+1,Toán tử gán
+Toán tử	Ví dụ	Ý nghĩa
+=	x = y	gán giá trị y vào x
++=	x += y	x = x + y; cộng thêm vào x giá trị y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+??=	x ??= y	Toán tử ??= trong JS  là phép gán khi null.
+Nếu x bằng null thì giá trị y gán cho x, nếu x đã khác null thì không thay đổi gì
+
+2,Toán tử so sánh
+== Trả lại giá trị đúng nếu toán hạng bên trái bằng toán hạng bên phải.
+!= Trả lại giá trị đúng nếu toán hạng bên trái khác toán hạng bên phải.
+> Trả lại giá trị đúng nếu toán hạng bên trái lớn hơn toán hạng bên phải.
+>= Trả lại giá trị đúng nếu toán hạng bên trái lớn hơn hoặc bằng toán hạng bên phải.
+< Trả lại giá trị đúng nếu toán hạng bên trái nhỏ hơn toán hạng bên phải.
+<= Trả lại giá trị đúng nếu toán hạng bên trái nhỏ hơn hoặc bằng toán hạng bên
+phải
+
+3,Toán tử logic
+&&: và
+||: hoặc
+!: phủ định
+
+
+
+
+CÂU LỆNH ĐIỀU KIỆN
+1.If..else...
+if ( <biểu thức điều kiện> )
+{
+//Các câu lệnh với điều kiện đúng
+}
+else
+{
+//Các câu lệnh với điều kiện sai
+}
+2.Switch case
+switch (<biến điều khiển>) {
+case “nhãn 1”:
+ //Các câu lệnh với nhãn 1;
+ break;
+Chú ý: Ký tự { và } được sử dụng để tách các khối mã.
+case nhãn 2:
+ //Các câu lệnh với nhãn 2;
+ break;
+…………
+default:
+ //Các câu lệnh trong trường hợp mặc định;
+}

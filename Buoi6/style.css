@@ -9,7 +9,17 @@ a {
     text-decoration: none;
     color: black;
 }
-
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.home__content>h1,p{
+    color: white;
+}
 .container {
     width: 100%;
     height: 100vh;
@@ -81,7 +91,9 @@ ul {
     justify-content: center;
     align-items: center;
 }
-
+.Choose1--content>h1{
+    color: white;
+}
 .Choose1__content {
     height: 80%;
     width: 50%;
@@ -123,7 +135,7 @@ ul {
     width: 100%;
     height: 60%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .content1 {
